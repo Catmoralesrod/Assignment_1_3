@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Assignment_1</string>
+    <string name="register1">Register</string>
+    <string name="forget_password">Forget password</string>
+    <string name="password1">Password:</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="username1">Username:</string>
+    <string name="welcome_to_msu">WELCOME TO MSU</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="username2">Username</string>
+    <string name="email1">Email</string>
+    <string name="submit1">Submit</string>
+    <string name="i_e_1234">i.e. 1234</string>
+    <string name="email2">Enter your email</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_major">Enter your major</string>
+    <string name="enter_your_msu_email">Enter your MSU email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="register">Register</string>
+    <string name="date_1">Date :</string>
+    <string name="major">Major</string>
+
+
+
+    <string-array name="spinner_options">
+        <item name="i_t">Information Technology</item>
+        <item name="comp_si">Computer Science</item>
+        <item name="g_design">Graphic Design</item>
+        <item name="i_design">Industrial Design</item>
+        <item name="bus_admin">Business Administration</item>
+    </string-array>
+
+
+
+
+
+
+
+
+</resources>

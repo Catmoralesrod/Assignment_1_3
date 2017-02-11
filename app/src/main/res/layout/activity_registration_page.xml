@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="edu.montclair.mobilecomputing.m_alrajab.assignment_1.RegistrationPage"
+    android:id="@+id/RegistrationPage"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/new_background"
+    android:weightSum="1">
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:id="@+id/Reg_UserName"
+        android:hint="@string/enter_your_username"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_date"
+        android:text="@string/date_of_birth"
+        android:background="@color/colorAccent"
+        android:onClick="dateClick"/>
+
+    <TextView
+        android:text="@string/date_of_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_display"
+        android:textSize="10pt"
+        android:paddingTop="@dimen/activity_horizontal_margin"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:id="@+id/Reg_SName"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:hint="@string/enter_your_name"/>
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/major"
+       android:textSize="10pt"
+       />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_dropdown"
+        android:spinnerMode="dropdown"
+        android:text="@string/major">
+
+    </Spinner>
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20sp"
+        android:id="@+id/Reg_Email"
+        android:hint="@string/enter_your_msu_email"/>
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:id="@+id/Reg_pass1"
+        android:hint="@string/enter_your_password"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:id="@+id/Reg_pass2"
+        android:hint="@string/confirm_password"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Reg"
+        android:text="@string/register"
+        android:backgroundTint="#0FFF"/>
+</LinearLayout>
+</ScrollView>
